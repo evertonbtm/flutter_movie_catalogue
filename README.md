@@ -59,13 +59,10 @@ To get started with this project, follow these steps:
 Here are some screenshots of the application:
 
 ### Home Screen
-![Home Screen](screenshots/home_screen.png)
+![Home Screen](https://github.com/evertonbtm/flutter_movie_catalogue/blob/master/assets/img/gallery_layout.png)
 
-### Movie Details
-![Movie Details](screenshots/movie_details.png)
-
-### Search Functionality
-![Search](screenshots/search.png)
+### Movie ListLayout
+![Movie Details](https://github.com/evertonbtm/flutter_movie_catalogue/blob/master/assets/img/list_layout.png)
 
 > **Note**: Place your screenshots in a `screenshots` folder in the root directory of the project and update the paths above accordingly.
 
