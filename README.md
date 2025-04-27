@@ -64,8 +64,6 @@ Here are some screenshots of the application:
 ### Movie ListLayout
 ![Movie Details](https://github.com/evertonbtm/flutter_movie_catalogue/blob/master/assets/img/list_layout.png)
 
-> **Note**: Place your screenshots in a `screenshots` folder in the root directory of the project and update the paths above accordingly.
-
 ## Resources
 
 A few resources to help you get started with Flutter development:
