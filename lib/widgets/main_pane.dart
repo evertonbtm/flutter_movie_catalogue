@@ -5,6 +5,7 @@ import 'package:movie_catalogue/bloc/movie/movie_cubit.dart';
 import 'package:movie_catalogue/bloc/movie/movie_state.dart';
 import 'package:movie_catalogue/models/movie_model.dart';
 import '../data.dart';
+import 'package:movie_catalogue/pages/movie_details_page.dart';
 
 class MainPane extends StatefulWidget {
   const MainPane({
@@ -84,7 +85,15 @@ class _MainPaneState extends State<MainPane> {
                     child: Material(
                       color: Colors.transparent,
                       child: InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) =>
+                                  MovieDetailsPage(movie: movie),
+                            ),
+                          );
+                        },
                         onHover: (val) {
                           setState(() {
                             isHover = val;
@@ -156,7 +165,15 @@ class _MainPaneState extends State<MainPane> {
                         child: Material(
                           color: Colors.transparent,
                           child: InkWell(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      MovieDetailsPage(movie: movie),
+                                ),
+                              );
+                            },
                             onHover: (val) {
                               setState(() {
                                 isHover = val;
